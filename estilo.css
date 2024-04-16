@@ -1,0 +1,34 @@
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #23C4AF;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #008D7B;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+form {
+     display: block;
+     margin: 5%px;
+     padding: 10px;
+}
